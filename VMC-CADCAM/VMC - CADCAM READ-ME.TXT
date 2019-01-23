@@ -1,0 +1,68 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'VMC.LYT'.
+CADCAM generated at 14:25:12 on 10 Nisan 2017 Pazartesi.
+
+File List
+---------
+Top Copper              : VMC - CADCAM Top Copper.TXT
+Bottom Copper           : VMC - CADCAM Bottom Copper.TXT
+Top Silk Screen         : VMC - CADCAM Top Silk Screen.TXT
+Top Solder Resist       : VMC - CADCAM Top Solder Resist.TXT
+Bottom Solder Resist    : VMC - CADCAM Bottom Solder Resist.TXT
+Drill                   : VMC - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height
+
+D10	CIRCLE	D=25th                                      DRAW
+D11	CIRCLE	D=60th                                      DRAW
+D12	CIRCLE	D=90th                                      DRAW
+D13	CIRCLE	D=70th                                      DRAW
+D14	CIRCLE	D=50th                                      FLASH
+D15	CIRCLE	D=250th                                     FLASH
+D16	CIRCLE	D=120th                                     FLASH
+D17	SMT	W=60th                H=60th                FLASH
+D18	CIRCLE	D=60th                                      FLASH
+D19	CIRCLE	D=80th                                      FLASH
+D70	SQUARE	S=80th                                      FLASH
+D71	SQUARE	S=50th                                      FLASH
+D20	CIRCLE	D=70th                                      FLASH
+D21	CIRCLE	D=100th                                     FLASH
+D22	CIRCLE	D=90th                                      FLASH
+D23	SQUARE	S=75th                                      FLASH
+D24	CIRCLE	D=8th                                       DRAW
+D25	CIRCLE	D=20th                                      DRAW
+D26	CIRCLE	D=6th                                       DRAW
+D27	CIRCLE	D=290th                                     FLASH
+D28	CIRCLE	D=140th                                     FLASH
+D29	CIRCLE	D=150th                                     FLASH
+D72	SMT	W=100th               H=100th               FLASH
+D73	SMT	W=70th                H=70th                FLASH
+D30	CIRCLE	D=130th                                     FLASH
+D31	CIRCLE	D=110th                                     FLASH
+D32	SMT	W=95th                H=95th                FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	20th (0-15)
+T02	157.4th (0-15)
+T03	70th (0-15)
+T04	60th (0-15)
+T05	118.1th (0-15)
+T06	38th (0-15)
+T07	40th (0-15)
+T08	30th (0-15)
+T09	25th (0-15)
+T10	90th (0-15)
+
+
+[END OF FILE]

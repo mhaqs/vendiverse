@@ -1,0 +1,281 @@
+[?1049h[1;24r(B[m[4l[?7h[?1l>Traceback (most recent call last):
+  File "macgal.py", line 909, in <module>
+    curses.wrapper(main)
+  File "/usr/lib/python2.7/curses/wrapper.py", line 49, in wrapper
+    curses.nocbreak()
+_curses.error: nocbreak() returned ERR
+[?1049h[1;24r(B[m[4l[?7h[?1l>Traceback (most recent call last):
+  File "macgal.py", line 909, in <module>
+    curses.wrapper(main)
+  File "/usr/lib/python2.7/curses/wrapper.py", line 49, in wrapper
+    curses.nocbreak()
+_curses.error: nocbreak() returned ERR
+Traceback (most recent call last):
+  File "macgal.py", line 908, in <module>
+    main(1) 
+  File "macgal.py", line 904, in main
+    win.nodelay(True)
+AttributeError: 'int' object has no attribute 'nodelay'
+Traceback (most recent call last):
+  File "macgal.py", line 908, in <module>
+    main(1) 
+  File "macgal.py", line 906, in main
+    idle(win)
+  File "macgal.py", line 757, in idle
+    cursesKey = win.getch()
+AttributeError: 'int' object has no attribute 'getch'
+Traceback (most recent call last):
+  File "macgal.py", line 10, in <module>
+    import mdb_mega328
+  File "/home/eliverse/bin/mdb_mega328.py", line 36
+    elif ( line.startswith("C.D050")):
+       ^
+SyntaxError: invalid syntax
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 1432, in <module>
+    main(1) 
+  File "macgal.py", line 1430, in main
+    idle(win)
+  File "macgal.py", line 1287, in idle
+    sale(win, balance)
+  File "macgal.py", line 1354, in sale
+    balance = dispense(product, abs(remaining), balance)
+  File "macgal.py", line 1156, in dispense
+    motor.startMotor(1)
+  File "/home/eliverse/bin/motor_mega8.py", line 19, in startMotor
+    self.i2c.write_byte(self.I2CADDR, cmd)
+IOError: [Errno 70] Communication error on send
+00:00:00
+17:05:00
+20170517
+17:11:00
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 1432, in <module>
+    main(1) 
+  File "macgal.py", line 1430, in main
+    idle(win)
+  File "macgal.py", line 1328, in idle
+    sleep(0.3)
+KeyboardInterrupt
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 1432, in <module>
+    main(1) 
+  File "macgal.py", line 1430, in main
+    idle(win)
+  File "macgal.py", line 1287, in idle
+    sale(win, balance)
+  File "macgal.py", line 1348, in sale
+    price = getPrice(product)
+  File "macgal.py", line 1125, in getPrice
+    cursor.execute("SELECT price FROM shelf LEFT JOIN product ON shelf.product_id=product.id WHERE shelf.shelf_no='%s'" % shelf)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+_mysql_exceptions.OperationalError: (2006, 'MySQL server has gone away')
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 1431, in <module>
+    main(1) 
+  File "macgal.py", line 1429, in main
+    idle(win)
+  File "macgal.py", line 1286, in idle
+    sale(win, balance)
+  File "macgal.py", line 1347, in sale
+    price = getPrice(product)
+  File "macgal.py", line 1125, in getPrice
+    cursor.execute("SELECT price FROM shelf LEFT JOIN product ON shelf.product_id=product.id WHERE shelf.shelf_no='%s'" % shelf)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+_mysql_exceptions.OperationalError: (2006, 'MySQL server has gone away')
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 1468, in <module>
+    main(1) 
+  File "macgal.py", line 1466, in main
+    idle(win)
+  File "macgal.py", line 1326, in idle
+    openMenu(win, currentMenu)
+  File "macgal.py", line 1153, in openMenu
+    openMenu(win, currentMenu)
+  File "macgal.py", line 1156, in openMenu
+    globals()[cMenu[menuNum]['fn']](win)
+  File "macgal.py", line 1118, in a67
+    motor.startMotor(int(motorNo[0]), int(motorNo[2:]))
+  File "/home/eliverse/bin/motor_mega8.py", line 19, in startMotor
+    self.i2c.write_byte(self.I2CADDR + tray, cmd)
+IOError: [Errno 70] Communication error on send
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 1468, in <module>
+    main(1) 
+  File "macgal.py", line 1466, in main
+    idle(win)
+  File "macgal.py", line 1326, in idle
+    openMenu(win, currentMenu)
+  File "macgal.py", line 1153, in openMenu
+    openMenu(win, currentMenu)
+  File "macgal.py", line 1156, in openMenu
+    globals()[cMenu[menuNum]['fn']](win)
+  File "macgal.py", line 1118, in a67
+    motor.startMotor(int(motorNo[0]), int(motorNo[2:]))
+  File "/home/eliverse/bin/motor_mega8.py", line 19, in startMotor
+    self.i2c.write_byte(self.I2CADDR + tray, cmd)
+IOError: [Errno 70] Communication error on send
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 1469, in <module>
+    main(1) 
+  File "macgal.py", line 1467, in main
+    idle(win)
+  File "macgal.py", line 1333, in idle
+    mylcd.lcd_display_string("PARA YUKLEYINIZ...", 4)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 159, in lcd_display_string
+    self.lcd_write(ord(char), Rs)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 137, in lcd_write
+    self.lcd_write_four_bits(mode | ((cmd << 4) & 0xF0))
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 132, in lcd_write_four_bits
+    self.lcd_strobe(data)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 127, in lcd_strobe
+    self.lcd_device.write_cmd(((data & ~En) | LCD_BACKLIGHT))
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 34, in write_cmd
+    self.bus.write_byte(self.addr, cmd)
+IOError: [Errno 70] Communication error on send
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 1469, in <module>
+    main(1) 
+  File "macgal.py", line 1467, in main
+    idle(win)
+  File "macgal.py", line 1324, in idle
+    sale(win, balance)
+  File "macgal.py", line 1385, in sale
+    price = getPrice(product)
+  File "macgal.py", line 1163, in getPrice
+    cursor.execute("SELECT price FROM shelf LEFT JOIN product ON shelf.product_id=product.id WHERE shelf.shelf_no='%s'" % shelf)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+_mysql_exceptions.OperationalError: (2006, 'MySQL server has gone away')
+Serial opened.
+*
+**
+**1
+**12
+**123
+**1234
+Traceback (most recent call last):
+  File "macgal.py", line 1484, in <module>
+    main(1) 
+  File "macgal.py", line 1482, in main
+    idle(win)
+  File "macgal.py", line 1339, in idle
+    openMenu(win, currentMenu)
+  File "macgal.py", line 1154, in openMenu
+    openMenu(win, currentMenu)
+  File "macgal.py", line 1157, in openMenu
+    globals()[cMenu[menuNum]['fn']](win)
+KeyError: 'a34'
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 29, in <module>
+    sleep(2)
+KeyboardInterrupt
+Serial opened.
+idle
+P
+Traceback (most recent call last):
+  File "macgal.py", line 1398, in idle
+    mylcd.lcd_display_string("%s" %time.strftime("%d/%m/%Y  %H:%M:%S  "), 2)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 159, in lcd_display_string
+    self.lcd_write(ord(char), Rs)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 137, in lcd_write
+    self.lcd_write_four_bits(mode | ((cmd << 4) & 0xF0))
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 131, in lcd_write_four_bits
+    self.lcd_device.write_cmd(data | LCD_BACKLIGHT)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 34, in write_cmd
+    self.bus.write_byte(self.addr, cmd)
+IOError: [Errno 70] Communication error on send
+Traceback (most recent call last):
+  File "macgal.py", line 1397, in idle
+    mylcd.lcd_display_string("ASYA OTOMAT M100-S")
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 159, in lcd_display_string
+    self.lcd_write(ord(char), Rs)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 137, in lcd_write
+    self.lcd_write_four_bits(mode | ((cmd << 4) & 0xF0))
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 132, in lcd_write_four_bits
+    self.lcd_strobe(data)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 125, in lcd_strobe
+    self.lcd_device.write_cmd(data | En | LCD_BACKLIGHT)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 34, in write_cmd
+    self.bus.write_byte(self.addr, cmd)
+IOError: [Errno 70] Communication error on send
+Traceback (most recent call last):
+  File "macgal.py", line 1397, in idle
+    mylcd.lcd_display_string("ASYA OTOMAT M100-S")
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 159, in lcd_display_string
+    self.lcd_write(ord(char), Rs)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 137, in lcd_write
+    self.lcd_write_four_bits(mode | ((cmd << 4) & 0xF0))
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 132, in lcd_write_four_bits
+    self.lcd_strobe(data)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 127, in lcd_strobe
+    self.lcd_device.write_cmd(((data & ~En) | LCD_BACKLIGHT))
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 34, in write_cmd
+    self.bus.write_byte(self.addr, cmd)
+IOError: [Errno 70] Communication error on send
+Traceback (most recent call last):
+  File "macgal.py", line 1397, in idle
+    mylcd.lcd_display_string("ASYA OTOMAT M100-S")
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 159, in lcd_display_string
+    self.lcd_write(ord(char), Rs)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 136, in lcd_write
+    self.lcd_write_four_bits(mode | (cmd & 0xF0))
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 131, in lcd_write_four_bits
+    self.lcd_device.write_cmd(data | LCD_BACKLIGHT)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 34, in write_cmd
+    self.bus.write_byte(self.addr, cmd)
+IOError: [Errno 70] Communication error on send
+Traceback (most recent call last):
+  File "macgal.py", line 1539, in <module>
+    main(1) 
+  File "macgal.py", line 1537, in main
+    idle(win)
+  File "macgal.py", line 1433, in idle
+    mylcd.lcd_clear()
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 163, in lcd_clear
+    self.lcd_write(LCD_CLEARDISPLAY)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 136, in lcd_write
+    self.lcd_write_four_bits(mode | (cmd & 0xF0))
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 131, in lcd_write_four_bits
+    self.lcd_device.write_cmd(data | LCD_BACKLIGHT)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 34, in write_cmd
+    self.bus.write_byte(self.addr, cmd)
+IOError: [Errno 70] Communication error on send
+Serial opened.
+Traceback (most recent call last):
+  File "macgal.py", line 31, in <module>
+    mylcd = I2C_LCD_driver.lcd()
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 111, in __init__
+    self.lcd_write(0x03)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 136, in lcd_write
+    self.lcd_write_four_bits(mode | (cmd & 0xF0))
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 131, in lcd_write_four_bits
+    self.lcd_device.write_cmd(data | LCD_BACKLIGHT)
+  File "/home/eliverse/bin/I2C_LCD_driver.py", line 34, in write_cmd
+    self.bus.write_byte(self.addr, cmd)
+IOError: [Errno 70] Communication error on send
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   000104 19:34:53 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+000104 19:34:53 [Note] mysqld (mysqld 5.5.54-0+deb8u1) starting as process 1670 ...
+000104 19:35:41 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+000104 19:35:41 [Note] mysqld (mysqld 5.5.54-0+deb8u1) starting as process 1722 ...
+000104 19:36:39 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+000104 19:36:39 [Note] mysqld (mysqld 5.5.54-0+deb8u1) starting as process 1768 ...
+170614 16:17:30 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170614 16:17:30 [Note] mysqld (mysqld 5.5.54-0+deb8u1) starting as process 1342 ...
